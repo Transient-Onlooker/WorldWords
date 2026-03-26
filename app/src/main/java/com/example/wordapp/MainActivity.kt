@@ -354,7 +354,7 @@ private fun RootApp() {
                     },
                     title = {
                         val title = when (currentScreen) {
-                            Screen.WORDS -> "단어장 v4.4"
+                            Screen.WORDS -> "WorldWords V1.0.0"
                             Screen.FLASHCARD -> "플래시카드"
                             Screen.QUIZ -> "퀴즈"
                             Screen.EXAMPLE_QUIZ -> "예문 퀴즈"
@@ -1188,6 +1188,5 @@ fun saveWordsToAppSpecificStorage(context: Context, wordList: List<WordPair>) {
         }
     }
 }
-
 
 

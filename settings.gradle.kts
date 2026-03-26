@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Wordapp"
+rootProject.name = "WorldWords"
 include(":app")
